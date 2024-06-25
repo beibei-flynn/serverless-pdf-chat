@@ -5,6 +5,7 @@ import {
   ChevronDownIcon,
 } from "@heroicons/react/24/outline";
 import { ChatBubbleLeftRightIcon } from "@heroicons/react/24/solid";
+import LeapifaiLogo from "../../public/Logo.png";
 
 interface NavigationProps {
   userInfo: any;
@@ -24,8 +25,8 @@ const Navigation: React.FC<NavigationProps> = ({
           to="/"
           className="inline-flex items-center self-center text-2xl font-semibold whitespace-nowrap text-white"
         >
-          <ChatBubbleLeftRightIcon className="w-6 h-6 mr-1.5" />
-          DocChat
+          <img src={LeapifaiLogo} className="w-6 h-6 mr-1.5" />
+          Tax Copilot
         </Link>
         <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
           <div className="relative ml-3">
