@@ -25,8 +25,8 @@ const Navigation: React.FC<NavigationProps> = ({
           to="/"
           className="inline-flex items-center self-center text-2xl font-semibold whitespace-nowrap text-white"
         >
-          <img src={LeapifaiLogo} className="w-24 h-12 mr-0.5" />
-          Tax Copilot
+          {/* <img src={LeapifaiLogo} className="w-36 h-12 mr-0.5" /> */}
+          Leapifai's Tax Copilot
         </Link>
         <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
           <div className="relative ml-3">
